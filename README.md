@@ -43,7 +43,6 @@ farmer-profitability-estimator-ai/
 - **Authentication**: Custom Authentication (JWT, Bcrypt, Email OTP)
 - **Email Service**: Nodemailer
 - **AI Integration**: Ollama Endpoint (Llama 3.1)
-- **Validation**: Zod
 
 ## 🚀 Setup Steps
 
