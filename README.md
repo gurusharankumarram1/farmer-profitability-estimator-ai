@@ -31,8 +31,7 @@ farmer-profitability-estimator-ai/
 │   ├── services/            # Core business logic (auth, estimate formulation, mailing)
 │   ├── middleware/          # API/Route middlewares (e.g., route protection)
 │   ├── utils/               # Helper utility functions
-│   └── validations/         # Zod schemas for payload validations
-├── public/                  # Static assets
+│   └── validations/         # schemas for payload validations
 └── ...config/env files
 ```
 
