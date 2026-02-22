@@ -76,7 +76,6 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 # Authentication Secuity
 JWT_SECRET=your_super_secret_jwt_key
 JWT_EXPIRES_IN=7d
-NODE_ENV=development
 
 # AI LLM Endpoint Configuration
 OLLAMA_ENDPOINT=https://your-custom-endpoint/api/chat/completions
