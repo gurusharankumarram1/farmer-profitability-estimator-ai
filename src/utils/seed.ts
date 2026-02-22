@@ -47,7 +47,7 @@ export async function autoSeedDatabase() {
       });
       await Region.insertMany(regionsData);
 
-      const baseYields = {
+      const baseYields: Record<string, { base: number; variance: number }> = {
         "651a1b2c3d4e5f6a7b8c9c01": { base: 14.5, variance: 0.15 }, // Rice
         "651a1b2c3d4e5f6a7b8c9c02": { base: 13.0, variance: 0.12 }, // Wheat
         "651a1b2c3d4e5f6a7b8c9c03": { base: 20.0, variance: 0.15 }, // Maize
@@ -60,7 +60,7 @@ export async function autoSeedDatabase() {
         "651a1b2c3d4e5f6a7b8c9c10": { base: 85.0, variance: 0.15 }  // Potato
       };
 
-      const yieldsData = [];
+      const yieldsData: any[] = [];
       
       regionsData.forEach(region => {
         cropsData.forEach(crop => {
